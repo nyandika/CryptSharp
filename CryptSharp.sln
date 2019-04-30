@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptSharp", "CryptSharp\CryptSharp.csproj", "{18BE0F6A-B0D6-441B-8F56-418DEC318BC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptSharp.Demo", "CryptSharp.Demo\CryptSharp.Demo.csproj", "{FBF56A01-4EEF-4248-A672-6F56B824A0BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18BE0F6A-B0D6-441B-8F56-418DEC318BC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18BE0F6A-B0D6-441B-8F56-418DEC318BC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18BE0F6A-B0D6-441B-8F56-418DEC318BC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18BE0F6A-B0D6-441B-8F56-418DEC318BC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBF56A01-4EEF-4248-A672-6F56B824A0BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF56A01-4EEF-4248-A672-6F56B824A0BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF56A01-4EEF-4248-A672-6F56B824A0BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF56A01-4EEF-4248-A672-6F56B824A0BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58276078-6F84-4685-A19D-7441B6ED2DAC}
+	EndGlobalSection
+EndGlobal
