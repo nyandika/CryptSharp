@@ -118,11 +118,6 @@ namespace CryptSharp.Utility
             return _characters[value & BitMask];
         }
 
-        public override int GetByteCount(char[] chars, int index, int count)
-        {
-            throw new System.NotImplementedException();
-        }
-
         /// <summary>
         /// The bit mask for a single character in the current encoding.
         /// </summary>

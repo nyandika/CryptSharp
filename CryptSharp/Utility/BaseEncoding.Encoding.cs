@@ -79,5 +79,13 @@ namespace CryptSharp.Utility
 
             return byteCount;
         }
+
+        /// <inheritdoc />
+        public override int GetByteCount(char[] chars, int index, int count)
+        {
+            Check.Bounds("chars", chars, index, count);
+
+            return GetMaxByteCount(count);
+        }
     }
 }
