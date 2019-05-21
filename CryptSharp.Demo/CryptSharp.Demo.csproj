@@ -9,4 +9,10 @@
     <ProjectReference Include="..\CryptSharp\CryptSharp.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Crypter\" />
+    <Folder Include="SCrypt\" />
+    <Folder Include="Pbkdf2\" />
+  </ItemGroup>
+
 </Project>
