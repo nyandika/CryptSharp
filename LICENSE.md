@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2019 Nyandika Donald
+Copyright (c) 2011-2014 James F. Bellinger <http://www.zer7.com/software/cryptsharp>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

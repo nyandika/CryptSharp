@@ -2,6 +2,23 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>CryptSharpStandard</PackageId>
+    <Authors>Nyandika Donald</Authors>
+    <Company>Medbit Kenya</Company>
+    <Description>CryptSharp provides a number of password crypt algorithms - BCrypt, LDAP, MD5 (and Apache's htpasswd variant), PHPass (WordPress, phpBB, Drupal), SHA256, SHA512, and Traditional and Extended DES. Additionally it includes Blowfish, SCrypt, and PBKDF2 for any HMAC (.NET's built-in PBKDF2 implementation supports only SHA-1). If you are looking to store passwords, odds are CryptSharp has the algorithm you want.</Description>
+    <PackageProjectUrl>https://github.com/nyandika/CryptSharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nyandika/CryptSharp</RepositoryUrl>
+    <Copyright>Copyright (c) 2011-2014 James F. Bellinger &lt;http://www.zer7.com/software/cryptsharp&gt;</Copyright>
+    <PackageReleaseNotes>This is a fork of the CryptSharpOfficial library which was last updated in 2014.
+This remake targets .Net Standard</PackageReleaseNotes>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
