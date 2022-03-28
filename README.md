@@ -1,7 +1,7 @@
 # CryptSharp
 This is a fork of the CryptSharpOfficial library https://www.zer7.com/software/cryptsharp
 
-Ported to .Net Standard to integrate smoothly with .Net Core projects
+Ported to .Net Standard to integrate with .Net Core projects
 
 :arrow_forward: [Download from Nuget](https://www.nuget.org/packages/CryptSharpStandard/)
 

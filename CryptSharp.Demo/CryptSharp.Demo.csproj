@@ -2,17 +2,41 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Blowfish\TestVectors.txt" />
+    <None Remove="Crypter\TestVectors-BCrypt.txt" />
+    <None Remove="Crypter\TestVectors-DES.txt" />
+    <None Remove="Crypter\TestVectors-ExtendedDES.txt" />
+    <None Remove="Crypter\TestVectors-LDAP.txt" />
+    <None Remove="Crypter\TestVectors-MD5.txt" />
+    <None Remove="Crypter\TestVectors-PHPass.txt" />
+    <None Remove="Crypter\TestVectors-SHA256.txt" />
+    <None Remove="Crypter\TestVectors-SHA512.txt" />
+    <None Remove="Pbkdf2\TestVectors-PBKDF2.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Blowfish\TestVectors.txt" />
+    <EmbeddedResource Include="Crypter\TestVectors-BCrypt.txt" />
+    <EmbeddedResource Include="Crypter\TestVectors-DES.txt" />
+    <EmbeddedResource Include="Crypter\TestVectors-ExtendedDES.txt" />
+    <EmbeddedResource Include="Crypter\TestVectors-LDAP.txt" />
+    <EmbeddedResource Include="Crypter\TestVectors-MD5.txt" />
+    <EmbeddedResource Include="Crypter\TestVectors-PHPass.txt" />
+    <EmbeddedResource Include="Crypter\TestVectors-SHA256.txt" />
+    <EmbeddedResource Include="Crypter\TestVectors-SHA512.txt" />
+    <EmbeddedResource Include="Pbkdf2\TestVectors-PBKDF2.txt" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\CryptSharp\CryptSharp.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Crypter\" />
     <Folder Include="SCrypt\" />
-    <Folder Include="Pbkdf2\" />
   </ItemGroup>
 
 </Project>

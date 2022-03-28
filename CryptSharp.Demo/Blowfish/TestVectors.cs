@@ -1,9 +1,7 @@
 ﻿using CryptSharp.Utility;
 using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
-using System.Text;
 using System.Text.RegularExpressions;
 
 namespace CryptSharp.Demo.Blowfish
@@ -13,9 +11,7 @@ namespace CryptSharp.Demo.Blowfish
         public static void Test()
         {
             Console.Write("Testing Blowfish");
-            using (Stream stream =
-                Assembly.GetExecutingAssembly().GetManifestResourceStream
-                ("CryptSharp.Demo.Blowfish.TestVectors.txt"))
+            using (Stream stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("CryptSharp.Demo.Blowfish.TestVectors.txt"))
             {
                 using (StreamReader reader = new StreamReader(stream))
                 {
