@@ -1,4 +1,0 @@
-oy2kn7ydnzywr5qbun5axjxy3iluumhurguxc4aqgen76m
-
-
-dotnet nuget push CryptSharpStandard.1.0.0.nupkg -k oy2kn7ydnzywr5qbun5axjxy3iluumhurguxc4aqgen76m -s https://api.nuget.org/v3/index.json
